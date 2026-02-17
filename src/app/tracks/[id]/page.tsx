@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect, use, useRef } from 'react';
-import { useSession } from 'next-auth/react';
+import { useAuth } from '@/components/providers/auth-provider';
+import { api } from '@/lib/api';
 import Link from 'next/link';
 import { cn, getEventLabel, getExperienceLabel } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
@@ -57,7 +58,7 @@ type Tab = 'map' | 'reviews' | 'info';
 
 export default function TrackDetailPage({ params }: { params: Promise<{ id: string }> }) {
     const { id } = use(params);
-    const { data: session } = useSession();
+    const { user } = useAuth();
     const [track, setTrack] = useState<Track | null>(null);
     const [loading, setLoading] = useState(true);
     const [activeTab, setActiveTab] = useState<Tab>('map');
@@ -71,6 +72,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
     const [newZoneName, setNewZoneName] = useState('');
     const [newZoneDesc, setNewZoneDesc] = useState('');
     const [newZonePos, setNewZonePos] = useState<{ x: number; y: number } | null>(null);
+    const [newZoneEventType, setNewZoneEventType] = useState('');
 
     // Review form state
     const [reviewRating, setReviewRating] = useState(0);
@@ -85,17 +87,43 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
     // Image upload
     const imageInputRef = useRef<HTMLInputElement>(null);
     const [uploadingImage, setUploadingImage] = useState(false);
+    const [images, setImages] = useState<any[]>([]);
+    const [imageUrl, setImageUrl] = useState('');
+    const [imageCaption, setImageCaption] = useState('');
+    const [showImageUpload, setShowImageUpload] = useState(false);
+
+    // Zone editing
+    const [editingZoneId, setEditingZoneId] = useState<string | null>(null);
+    const [editZoneName, setEditZoneName] = useState('');
+    const [editZoneDesc, setEditZoneDesc] = useState('');
 
     const [submitting, setSubmitting] = useState(false);
 
     useEffect(() => {
         fetchTrack();
-    }, [id]);
+        fetchImages();
+    }, [id, eventFilter]);
+
+    const fetchImages = async () => {
+        try {
+            const res = await api(`/api/tracks/${id}/images`, { cache: 'no-store' });
+            if (res.ok) {
+                const data = await res.json();
+                setImages(data);
+            }
+        } catch (error) {
+            console.error('Failed to fetch images:', error);
+        }
+    };
 
     const fetchTrack = async () => {
         setLoading(true);
         try {
-            const res = await fetch(`/api/tracks/${id}`);
+            const url = new URL(`/api/tracks/${id}`, window.location.origin);
+            if (eventFilter) {
+                url.searchParams.set('eventType', eventFilter);
+            }
+            const res = await api(url.pathname + url.search, { cache: 'no-store' });
             if (res.ok) {
                 const data = await res.json();
                 setTrack(data);
@@ -121,7 +149,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
         setSubmitting(true);
 
         try {
-            const res = await fetch(`/api/tracks/${id}/zones`, {
+            const res = await api(`/api/tracks/${id}/zones`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -129,6 +157,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                     description: newZoneDesc || undefined,
                     posX: newZonePos.x,
                     posY: newZonePos.y,
+                    eventType: newZoneEventType || undefined,
                 }),
             });
 
@@ -137,6 +166,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                 setNewZoneName('');
                 setNewZoneDesc('');
                 setNewZonePos(null);
+                setNewZoneEventType('');
                 fetchTrack();
             }
         } catch (error) {
@@ -152,7 +182,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
         setSubmitting(true);
 
         try {
-            const res = await fetch(`/api/tracks/${id}/reviews`, {
+            const res = await api(`/api/tracks/${id}/reviews`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -184,7 +214,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
         setSubmitting(true);
 
         try {
-            const res = await fetch(`/api/tracks/${id}/zones/${selectedZone.id}/tips`, {
+            const res = await api(`/api/tracks/${id}/zones/${selectedZone.id}/tips`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -199,7 +229,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                 setTipConditions('');
                 fetchTrack();
                 // Refresh selected zone data
-                const updatedTrack = await (await fetch(`/api/tracks/${id}`)).json();
+                const updatedTrack = await (await api(`/api/tracks/${id}`)).json();
                 setTrack(updatedTrack);
                 const updatedZone = updatedTrack.zones.find((z: TrackZone) => z.id === selectedZone.id);
                 if (updatedZone) setSelectedZone(updatedZone);
@@ -211,37 +241,81 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
         }
     };
 
-    const handleImageUpload = async (e: React.ChangeEvent<HTMLInputElement>) => {
-        const file = e.target.files?.[0];
-        if (!file) return;
+    const handleAddImage = async (e: React.FormEvent) => {
+        e.preventDefault();
+        if (!imageUrl.trim()) return;
         setUploadingImage(true);
-        try {
-            const formData = new FormData();
-            formData.append('file', file);
-            const uploadRes = await fetch('/api/upload', {
-                method: 'POST',
-                body: formData,
-            });
-            if (!uploadRes.ok) return;
-            const { imageUrl } = await uploadRes.json();
 
-            const patchRes = await fetch(`/api/tracks/${id}`, {
-                method: 'PATCH',
+        try {
+            const res = await api(`/api/tracks/${id}/images`, {
+                method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ imageUrl }),
+                body: JSON.stringify({
+                    url: imageUrl,
+                    caption: imageCaption || undefined,
+                }),
             });
-            if (patchRes.ok) {
-                fetchTrack();
+
+            if (res.ok) {
+                setImageUrl('');
+                setImageCaption('');
+                setShowImageUpload(false);
+                fetchImages();
             }
         } catch (error) {
-            console.error('Image upload failed:', error);
+            console.error('Failed to add image:', error);
         } finally {
             setUploadingImage(false);
-            if (imageInputRef.current) imageInputRef.current.value = '';
         }
     };
 
-    const isOwner = session?.user?.id === track?.uploadedBy?.id;
+    const handleDeleteImage = async (imageId: string) => {
+        try {
+            const res = await api(`/api/tracks/${id}/images?imageId=${imageId}`, {
+                method: 'DELETE',
+            });
+
+            if (res.ok) {
+                fetchImages();
+            }
+        } catch (error) {
+            console.error('Failed to delete image:', error);
+        }
+    };
+
+    const handleEditZone = async (zoneId: string) => {
+        if (!editZoneName.trim()) return;
+        setSubmitting(true);
+
+        try {
+            const res = await api(`/api/tracks/${id}/zones/${zoneId}`, {
+                method: 'PATCH',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    name: editZoneName,
+                    description: editZoneDesc || undefined,
+                }),
+            });
+
+            if (res.ok) {
+                setEditingZoneId(null);
+                setEditZoneName('');
+                setEditZoneDesc('');
+                fetchTrack();
+                // Update selected zone if it's the one being edited
+                if (selectedZone?.id === zoneId) {
+                    const updatedZone = track?.zones.find((z) => z.id === zoneId);
+                    if (updatedZone) setSelectedZone(updatedZone);
+                }
+            }
+        } catch (error) {
+            console.error('Failed to update zone:', error);
+        } finally {
+            setSubmitting(false);
+        }
+    };
+
+    const isOwner = user?.id === track?.uploadedBy?.id;
 
     if (loading) return <div className="page-container"><LoadingSpinner /></div>;
     if (!track) {
@@ -311,6 +385,40 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                 </div>
             </div>
 
+            {/* Event Type Filter — only show if track has multiple events */}
+            {track.events.length > 1 && (
+                <div className="px-4 pb-3 border-b border-surface-700">
+                    <p className="text-xs font-medium text-surface-400 mb-2">Filter by event type:</p>
+                    <div className="flex flex-wrap gap-2">
+                        <button
+                            onClick={() => setEventFilter('')}
+                            className={cn(
+                                'px-3 py-1 rounded-full text-xs font-medium transition-colors',
+                                !eventFilter
+                                    ? 'bg-brand-600 text-white'
+                                    : 'bg-surface-800 text-surface-300 hover:bg-surface-700'
+                            )}
+                        >
+                            All Events
+                        </button>
+                        {track.events.map((event) => (
+                            <button
+                                key={event.id}
+                                onClick={() => setEventFilter(event.eventType)}
+                                className={cn(
+                                    'px-3 py-1 rounded-full text-xs font-medium transition-colors',
+                                    eventFilter === event.eventType
+                                        ? 'bg-brand-600 text-white'
+                                        : 'bg-surface-800 text-surface-300 hover:bg-surface-700'
+                                )}
+                            >
+                                {getEventLabel(event.eventType)}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+            )}
+
             {/* Tabs */}
             <div className="flex border-b border-surface-700 mt-4 px-4">
                 {(['map', 'reviews', 'info'] as Tab[]).map((tab) => (
@@ -324,7 +432,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                                 : 'border-transparent text-surface-400 hover:text-surface-300'
                         )}
                     >
-                        {tab === 'map' ? `Zones (${track.zones.length})` : tab === 'reviews' ? `Reviews (${track._count.reviews})` : 'Info'}
+                        {tab === 'map' ? `Zones (${track.zones.length})${eventFilter ? ` - ${getEventLabel(eventFilter)}` : ''}` : tab === 'reviews' ? `Reviews (${track._count.reviews})` : 'Info'}
                     </button>
                 ))}
             </div>
@@ -333,15 +441,6 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                 {/* MAP TAB — Interactive Zone Map */}
                 {activeTab === 'map' && (
                     <div>
-                        {/* Hidden file input for image upload */}
-                        <input
-                            ref={imageInputRef}
-                            type="file"
-                            accept="image/jpeg,image/png,image/webp,image/svg+xml"
-                            onChange={handleImageUpload}
-                            className="hidden"
-                        />
-
                         {track.imageUrl ? (
                             <div className="relative rounded-xl overflow-hidden border border-surface-700">
                                 <div
@@ -426,7 +525,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
 
                         {/* Action buttons */}
                         <div className="flex gap-2 mt-3">
-                            {session && (
+                            {user && (
                                 <button
                                     onClick={() => {
                                         setShowAddZone(!showAddZone);
@@ -440,6 +539,13 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                                     {showAddZone ? 'Cancel' : '+ Add Zone'}
                                 </button>
                             )}
+                            <button
+                                onClick={() => setShowImageUpload(!showImageUpload)}
+                                className="btn-secondary text-sm px-3"
+                                title="Add track photos"
+                            >
+                                📸
+                            </button>
                         </div>
 
                         {/* Add zone form */}
@@ -465,14 +571,93 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                                             onChange={(e) => setNewZoneDesc(e.target.value)}
                                             placeholder="Description (optional)"
                                             className="input-field min-h-[60px] resize-none"
-                                            rows={2}
                                         />
-                                        <button type="submit" disabled={submitting} className="btn-primary w-full text-sm">
-                                            {submitting ? 'Saving...' : 'Save Zone'}
+                                        {track.events.length > 1 && (
+                                            <select
+                                                value={newZoneEventType}
+                                                onChange={(e) => setNewZoneEventType(e.target.value)}
+                                                className="input-field"
+                                            >
+                                                <option value="">All Event Types</option>
+                                                {track.events.map((event) => (
+                                                    <option key={event.id} value={event.eventType}>
+                                                        {getEventLabel(event.eventType)}
+                                                    </option>
+                                                ))}
+                                            </select>
+                                        )}
+                                        <button type="submit" disabled={submitting} className="btn-primary w-full">
+                                            {submitting ? 'Adding...' : 'Add Zone'}
                                         </button>
                                     </>
                                 )}
                             </form>
+                        )}
+
+                        {/* Image upload form */}
+                        {showImageUpload && (
+                            <form onSubmit={handleAddImage} className="card mt-3 space-y-3">
+                                <h3 className="section-title">Add Track Photo</h3>
+                                <input
+                                    type="url"
+                                    value={imageUrl}
+                                    onChange={(e) => setImageUrl(e.target.value)}
+                                    placeholder="Paste image URL (https://...)"
+                                    className="input-field"
+                                    required
+                                />
+                                <input
+                                    type="text"
+                                    value={imageCaption}
+                                    onChange={(e) => setImageCaption(e.target.value)}
+                                    placeholder="Caption (optional)"
+                                    className="input-field"
+                                />
+                                <div className="flex gap-2">
+                                    <button type="submit" disabled={uploadingImage || !imageUrl.trim()} className="flex-1 btn-primary text-sm">
+                                        {uploadingImage ? 'Adding...' : 'Add Photo'}
+                                    </button>
+                                    <button
+                                        type="button"
+                                        onClick={() => setShowImageUpload(false)}
+                                        className="flex-1 btn-secondary text-sm"
+                                    >
+                                        Cancel
+                                    </button>
+                                </div>
+                            </form>
+                        )}
+
+                        {/* Image gallery */}
+                        {images.length > 0 && (
+                            <div className="card mt-3">
+                                <h3 className="section-title mb-3">Track Photos ({images.length})</h3>
+                                <div className="grid grid-cols-2 gap-2">
+                                    {images.map((img) => (
+                                        <div key={img.id} className="relative group">
+                                            <img
+                                                src={img.url}
+                                                alt={img.caption || 'Track photo'}
+                                                className="w-full h-24 object-cover rounded-lg"
+                                            />
+                                            {img.caption && (
+                                                <p className="text-xs text-surface-300 mt-1 truncate">{img.caption}</p>
+                                            )}
+                                            {user && (
+                                                <button
+                                                    onClick={() => handleDeleteImage(img.id)}
+                                                    className="absolute -top-2 -right-2 p-1 bg-red-600 text-white rounded-full opacity-0 group-hover:opacity-100 transition-opacity"
+                                                    title="Delete photo"
+                                                >
+                                                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={3} stroke="currentColor">
+                                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                                                    </svg>
+                                                </button>
+                                            )}
+                                        </div>
+                                    ))}
+                                </div>
+                            </div>
                         )}
 
                         {/* Zone list */}
@@ -538,7 +723,7 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
                             ))}
                         </div>
 
-                        {session && (
+                        {user && (
                             <button
                                 onClick={() => setShowAddReview(true)}
                                 className="btn-primary w-full mb-4 text-sm"
@@ -644,11 +829,65 @@ export default function TrackDetailPage({ params }: { params: Promise<{ id: stri
             >
                 {selectedZone && (
                     <div>
-                        {selectedZone.description && (
-                            <p className="text-sm text-surface-400 mb-4">{selectedZone.description}</p>
+                        {/* Zone name editor */}
+                        {editingZoneId === selectedZone.id ? (
+                            <div className="mb-4 p-3 bg-surface-700/30 rounded-lg space-y-2">
+                                <input
+                                    type="text"
+                                    value={editZoneName}
+                                    onChange={(e) => setEditZoneName(e.target.value)}
+                                    placeholder="Zone name"
+                                    className="input-field"
+                                    autoFocus
+                                />
+                                <textarea
+                                    value={editZoneDesc}
+                                    onChange={(e) => setEditZoneDesc(e.target.value)}
+                                    placeholder="Description (optional)"
+                                    className="input-field min-h-[60px] resize-none"
+                                />
+                                <div className="flex gap-2">
+                                    <button
+                                        onClick={() => handleEditZone(selectedZone.id)}
+                                        disabled={submitting || !editZoneName.trim()}
+                                        className="flex-1 btn-primary text-sm"
+                                    >
+                                        {submitting ? 'Saving...' : 'Save'}
+                                    </button>
+                                    <button
+                                        onClick={() => setEditingZoneId(null)}
+                                        className="flex-1 btn-secondary text-sm"
+                                    >
+                                        Cancel
+                                    </button>
+                                </div>
+                            </div>
+                        ) : (
+                            <div className="mb-4 flex items-start justify-between">
+                                <div className="flex-1">
+                                    {selectedZone.description && (
+                                        <p className="text-sm text-surface-400 mb-2">{selectedZone.description}</p>
+                                    )}
+                                </div>
+                                {user && (
+                                    <button
+                                        onClick={() => {
+                                            setEditingZoneId(selectedZone.id);
+                                            setEditZoneName(selectedZone.name);
+                                            setEditZoneDesc(selectedZone.description || '');
+                                        }}
+                                        className="ml-2 p-2 text-surface-400 hover:text-surface-200 transition-colors"
+                                        title="Edit zone name"
+                                    >
+                                        <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                                            <path strokeLinecap="round" strokeLinejoin="round" d="m16.862 4.487l1.687-1.688a1.875 1.875 0 112.652 2.652L10.582 16.07a4.5 4.5 0 01-1.897 1.13L6 18l.8-2.685a4.5 4.5 0 011.13-1.897l8.932-8.931zm0 0L19.5 7.125M18 14v4.75A2.25 2.25 0 0115.75 21H5.25A2.25 2.25 0 013 18.75V8.25A2.25 2.25 0 015.25 6H10" />
+                                        </svg>
+                                    </button>
+                                )}
+                            </div>
                         )}
 
-                        {session && (
+                        {user && (
                             <button
                                 onClick={() => setShowAddTip(true)}
                                 className="btn-primary w-full text-sm mb-4"

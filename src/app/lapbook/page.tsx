@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSession } from 'next-auth/react';
+import { useAuth } from '@/components/providers/auth-provider';
+import { api } from '@/lib/api';
 import Link from 'next/link';
 import { cn, getEventLabel } from '@/lib/utils';
 import { Badge } from '@/components/ui/badge';
@@ -34,18 +35,18 @@ interface LapRecord {
 }
 
 export default function LapBookPage() {
-    const { data: session } = useSession();
+    const { user } = useAuth();
     const [records, setRecords] = useState<LapRecord[]>([]);
     const [loading, setLoading] = useState(true);
     const [expandedRecord, setExpandedRecord] = useState<string | null>(null);
 
     useEffect(() => {
-        if (session) fetchRecords();
-    }, [session]);
+        if (user) fetchRecords();
+    }, [user]);
 
     const fetchRecords = async () => {
         try {
-            const res = await fetch('/api/lapbook');
+            const res = await api('/api/lapbook');
             if (res.ok) {
                 const data = await res.json();
                 setRecords(data);
@@ -60,14 +61,14 @@ export default function LapBookPage() {
     const handleDelete = async (id: string) => {
         if (!confirm('Delete this lap record?')) return;
         try {
-            await fetch(`/api/lapbook/${id}`, { method: 'DELETE' });
+            await api(`/api/lapbook/${id}`, { method: 'DELETE' });
             fetchRecords();
         } catch (error) {
             console.error('Failed to delete record:', error);
         }
     };
 
-    if (!session) {
+    if (!user) {
         return (
             <div className="page-container flex flex-col items-center justify-center min-h-[60vh]">
                 <p className="text-surface-400 mb-4">Sign in to view your lap book</p>

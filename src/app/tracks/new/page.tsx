@@ -2,19 +2,21 @@
 
 import { useState, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import { useSession } from 'next-auth/react';
+import { useAuth } from '@/components/providers/auth-provider';
+import { api } from '@/lib/api';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 
 const EVENT_OPTIONS = [
+    { value: 'AUTOCROSS', label: 'Autocross', description: 'Cone courses & parking lots' },
+    { value: 'ROADCOURSE', label: 'Road Course', description: 'Time attack & racing' },
     { value: 'DRIFT', label: 'Drift', description: 'Sideways action' },
     { value: 'DRAG', label: 'Drag', description: 'Straight-line speed' },
-    { value: 'GRIP', label: 'Grip (Road Course)', description: 'Time attack & racing' },
 ];
 
 export default function NewTrackPage() {
     const router = useRouter();
-    const { data: session } = useSession();
+    const { user } = useAuth();
     const fileInputRef = useRef<HTMLInputElement>(null);
 
     const [name, setName] = useState('');
@@ -27,7 +29,7 @@ export default function NewTrackPage() {
     const [loading, setLoading] = useState(false);
     const [error, setError] = useState('');
 
-    if (!session) {
+    if (!user) {
         return (
             <div className="page-container flex flex-col items-center justify-center min-h-[60vh]">
                 <p className="text-surface-400 mb-4">You need to sign in to upload a track</p>
@@ -58,7 +60,7 @@ export default function NewTrackPage() {
             const formData = new FormData();
             formData.append('file', file);
 
-            const res = await fetch('/api/upload', {
+            const res = await api('/api/upload', {
                 method: 'POST',
                 body: formData,
             });
@@ -92,7 +94,7 @@ export default function NewTrackPage() {
         setLoading(true);
 
         try {
-            const res = await fetch('/api/tracks', {
+            const res = await api('/api/tracks', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({

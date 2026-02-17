@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSession } from 'next-auth/react';
+import { useAuth } from '@/components/providers/auth-provider';
+import { api } from '@/lib/api';
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
 import { BottomSheet } from '@/components/ui/bottom-sheet';
@@ -42,7 +43,7 @@ const MOD_CATEGORY_LABELS: Record<string, string> = {
 };
 
 export default function GaragePage() {
-    const { data: session } = useSession();
+    const { user } = useAuth();
     const [cars, setCars] = useState<Car[]>([]);
     const [loading, setLoading] = useState(true);
     const [showAddCar, setShowAddCar] = useState(false);
@@ -63,12 +64,12 @@ export default function GaragePage() {
     const [submitting, setSubmitting] = useState(false);
 
     useEffect(() => {
-        if (session) fetchCars();
-    }, [session]);
+        if (user) fetchCars();
+    }, [user]);
 
     const fetchCars = async () => {
         try {
-            const res = await fetch('/api/cars');
+            const res = await api('/api/cars');
             if (res.ok) {
                 const data = await res.json();
                 setCars(data);
@@ -85,7 +86,7 @@ export default function GaragePage() {
         setSubmitting(true);
 
         try {
-            const res = await fetch('/api/cars', {
+            const res = await api('/api/cars', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ make: carMake, model: carModel, year: carYear }),
@@ -109,7 +110,7 @@ export default function GaragePage() {
         if (!confirm('Delete this car and all its mods?')) return;
 
         try {
-            await fetch(`/api/cars/${carId}`, { method: 'DELETE' });
+            await api(`/api/cars/${carId}`, { method: 'DELETE' });
             fetchCars();
         } catch (error) {
             console.error('Failed to delete car:', error);
@@ -122,7 +123,7 @@ export default function GaragePage() {
         setSubmitting(true);
 
         try {
-            const res = await fetch(`/api/cars/${selectedCarId}/mods`, {
+            const res = await api(`/api/cars/${selectedCarId}/mods`, {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -148,14 +149,14 @@ export default function GaragePage() {
 
     const handleDeleteMod = async (carId: string, modId: string) => {
         try {
-            await fetch(`/api/cars/${carId}/mods/${modId}`, { method: 'DELETE' });
+            await api(`/api/cars/${carId}/mods/${modId}`, { method: 'DELETE' });
             fetchCars();
         } catch (error) {
             console.error('Failed to delete mod:', error);
         }
     };
 
-    if (!session) {
+    if (!user) {
         return (
             <div className="page-container flex flex-col items-center justify-center min-h-[60vh]">
                 <p className="text-surface-400 mb-4">Sign in to manage your garage</p>

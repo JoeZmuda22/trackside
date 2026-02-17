@@ -1,7 +1,8 @@
 'use client';
 
 import { useState, useEffect, Suspense } from 'react';
-import { useSession } from 'next-auth/react';
+import { useAuth } from '@/components/providers/auth-provider';
+import { api } from '@/lib/api';
 import { useRouter, useSearchParams } from 'next/navigation';
 import Link from 'next/link';
 import { cn, getEventLabel } from '@/lib/utils';
@@ -24,7 +25,7 @@ interface Car {
 function NewLapForm() {
     const router = useRouter();
     const searchParams = useSearchParams();
-    const { data: session } = useSession();
+    const { user } = useAuth();
     const preselectedTrackId = searchParams.get('trackId') || '';
 
     const [tracks, setTracks] = useState<Track[]>([]);
@@ -70,17 +71,17 @@ function NewLapForm() {
     const [showAlignment, setShowAlignment] = useState(false);
 
     useEffect(() => {
-        if (session) {
+        if (user) {
             Promise.all([
-                fetch('/api/tracks').then((r) => r.json()),
-                fetch('/api/cars').then((r) => r.json()),
+                api('/api/tracks').then((r) => r.json()),
+                api('/api/cars').then((r) => r.json()),
             ]).then(([tracksData, carsData]) => {
                 setTracks(tracksData);
                 setCars(carsData);
                 setLoading(false);
             });
         }
-    }, [session]);
+    }, [user]);
 
     const selectedTrack = tracks.find((t) => t.id === trackId);
 
@@ -92,7 +93,7 @@ function NewLapForm() {
         const toNum = (v: string) => (v ? parseFloat(v) : undefined);
 
         try {
-            const res = await fetch('/api/lapbook', {
+            const res = await api('/api/lapbook', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({
@@ -134,7 +135,7 @@ function NewLapForm() {
         }
     };
 
-    if (!session) {
+    if (!user) {
         return (
             <div className="page-container flex flex-col items-center justify-center min-h-[60vh]">
                 <p className="text-surface-400 mb-4">Sign in to log laps</p>

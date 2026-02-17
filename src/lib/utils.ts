@@ -5,10 +5,6 @@ export function cn(...inputs: ClassValue[]) {
     return twMerge(clsx(inputs));
 }
 
-export function formatLapTime(time: string): string {
-    return time;
-}
-
 export function getConditionBadgeColor(condition: string): string {
     return condition === 'WET'
         ? 'bg-blue-100 text-blue-800'
@@ -45,12 +41,14 @@ export function getExperienceLabel(level: string): string {
 
 export function getEventLabel(eventType: string): string {
     switch (eventType) {
+        case 'AUTOCROSS':
+            return 'Autocross';
+        case 'ROADCOURSE':
+            return 'Road Course';
         case 'DRIFT':
             return 'Drift';
         case 'DRAG':
             return 'Drag';
-        case 'GRIP':
-            return 'Grip (Road Course)';
         default:
             return eventType;
     }

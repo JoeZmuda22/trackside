@@ -3,13 +3,9 @@ node_modules
 /.pnp
 .pnp.js
 
-# Testing
-/coverage
-
 # Next.js
 /.next
 /out
-*.log
 
 # Production
 /build
@@ -19,29 +15,19 @@ node_modules
 .env
 .env.local
 .env.*.local
-.env.production.local
 
-# IDE
+# IDE & OS
 .vscode
 .idea
 *.swp
 *.swo
-*.swn
 *~
 .DS_Store
 Thumbs.db
 
-# OS
-.DS_Store
-.env.*.local
-
 # Logs
-logs/
 *.log
 npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-lerna-debug.log*
 
 # Misc
 .cache

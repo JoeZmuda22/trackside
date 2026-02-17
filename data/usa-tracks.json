@@ -1,0 +1,1103 @@
+{
+  "tracks": [
+    {
+      "name": "Alaska Raceway Park",
+      "location": "Palmer, AK",
+      "state": "AK",
+      "types": [
+        "drag"
+      ],
+      "latitude": 61.5247,
+      "longitude": -149.0253,
+      "description": "NHRA drag racing facility near Palmer"
+    },
+    {
+      "name": "Alabama International Dragway",
+      "location": "Steele, AL",
+      "state": "AL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 33.9256,
+      "longitude": -86.1986,
+      "description": "NHRA drag racing facility near Steele"
+    },
+    {
+      "name": "Atmore Dragway",
+      "location": "Atmore, AL",
+      "state": "AL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 31.1011,
+      "longitude": -87.5006,
+      "description": "NHRA drag racing facility near Atmore"
+    },
+    {
+      "name": "Barber Motorsports Park",
+      "location": "Birmingham, Alabama",
+      "state": "AL",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 33.5606,
+      "longitude": -86.5197,
+      "description": "State-of-the-art 2.38-mile road course"
+    },
+    {
+      "name": "US 90 Dragway",
+      "location": "Irvington, AL",
+      "state": "AL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 30.5131,
+      "longitude": -88.2242,
+      "description": "NHRA drag racing facility near Irvington"
+    },
+    {
+      "name": "George Ray's Dragstrip",
+      "location": "Paragould, AR",
+      "state": "AR",
+      "types": [
+        "drag"
+      ],
+      "latitude": 36.0472,
+      "longitude": -90.4344,
+      "description": "NHRA drag racing facility near Paragould"
+    },
+    {
+      "name": "Arizona Motorsports Park",
+      "location": "Chandler, Arizona",
+      "state": "AZ",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 33.2954,
+      "longitude": -111.6381,
+      "description": "Technical road course facility"
+    },
+    {
+      "name": "Wild Horse Pass Motorsports Park",
+      "location": "Chandler, AZ",
+      "state": "AZ",
+      "types": [
+        "drag"
+      ],
+      "latitude": 33.2689,
+      "longitude": -111.9661,
+      "description": "NHRA drag racing facility near Chandler"
+    },
+    {
+      "name": "Auto Club Speedway",
+      "location": "Fontana, California",
+      "state": "CA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 34.0667,
+      "longitude": -117.4167,
+      "description": "Major NHRA drag racing facility"
+    },
+    {
+      "name": "Buttonwillow Raceway Park",
+      "location": "Buttonwillow, California",
+      "state": "CA",
+      "types": [
+        "roadcourse",
+        "drag"
+      ],
+      "latitude": 35.4186,
+      "longitude": -119.5186,
+      "description": "Multi-configuration road course with drag strip"
+    },
+    {
+      "name": "Chuckwalla Valley Raceway",
+      "location": "Winterhaven, California",
+      "state": "CA",
+      "types": [
+        "autocross",
+        "roadcourse"
+      ],
+      "latitude": 32.8447,
+      "longitude": -114.6519,
+      "description": "Desert facility for autocross and track days"
+    },
+    {
+      "name": "Famoso Raceway",
+      "location": "McFarland, California",
+      "state": "CA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 35.4281,
+      "longitude": -119.2058,
+      "description": "NHRA-sanctioned drag strip"
+    },
+    {
+      "name": "Fontana Speedway Autocross",
+      "location": "Fontana, California",
+      "state": "CA",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 34.0667,
+      "longitude": -117.4167,
+      "description": "Large parking lot autocross venue"
+    },
+    {
+      "name": "Formula Drift - Irwindale",
+      "location": "Irwindale, California",
+      "state": "CA",
+      "types": [
+        "drift"
+      ],
+      "latitude": 34.0806,
+      "longitude": -117.9322,
+      "description": "Professional drift racing facility"
+    },
+    {
+      "name": "Fremont Raceway",
+      "location": "Fremont, California",
+      "state": "CA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 37.5485,
+      "longitude": -121.976,
+      "description": "NHRA drag racing venue"
+    },
+    {
+      "name": "In-N-Out Burger Pomona Dragstrip",
+      "location": "Pomona, CA",
+      "state": "CA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 34.095,
+      "longitude": -117.7697,
+      "description": "NHRA drag racing facility near Pomona"
+    },
+    {
+      "name": "Laguna Seca",
+      "location": "Monterey, California",
+      "state": "CA",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 36.5754,
+      "longitude": -121.7627,
+      "description": "World-class road course with famous Corkscrew"
+    },
+    {
+      "name": "Modesto Autocross",
+      "location": "Modesto, California",
+      "state": "CA",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 37.6688,
+      "longitude": -120.9972,
+      "description": "SCCA auto club sanctioned autocross"
+    },
+    {
+      "name": "Sonoma Raceway",
+      "location": "Sonoma, California",
+      "state": "CA",
+      "types": [
+        "roadcourse",
+        "drag"
+      ],
+      "latitude": 38.1789,
+      "longitude": -122.454,
+      "description": "Historic road course in Wine Country"
+    },
+    {
+      "name": "Streets of Willow Springs",
+      "location": "Rosamond, California",
+      "state": "CA",
+      "types": [
+        "roadcourse",
+        "drift"
+      ],
+      "latitude": 34.8956,
+      "longitude": -119.0336,
+      "description": "Street-style road course layout"
+    },
+    {
+      "name": "The Thermal Club",
+      "location": "Thermal, California",
+      "state": "CA",
+      "types": [
+        "roadcourse",
+        "autocross"
+      ],
+      "latitude": 33.8019,
+      "longitude": -115.905,
+      "description": "Exclusive country club road course facility"
+    },
+    {
+      "name": "Thunderhill Raceway Park",
+      "location": "Willows, California",
+      "state": "CA",
+      "types": [
+        "roadcourse",
+        "autocross"
+      ],
+      "latitude": 39.5445,
+      "longitude": -121.6348,
+      "description": "Multiple configurations for road racing and autocross"
+    },
+    {
+      "name": "Willow Springs Raceway",
+      "location": "Rosamond, California",
+      "state": "CA",
+      "types": [
+        "roadcourse",
+        "drift"
+      ],
+      "latitude": 34.8956,
+      "longitude": -119.0336,
+      "description": "Historic road course in the Mojave Desert"
+    },
+    {
+      "name": "Equipe GPS Autocross",
+      "location": "Denver, Colorado",
+      "state": "CO",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 39.7392,
+      "longitude": -104.9903,
+      "description": "SCCA autocross at high altitude"
+    },
+    {
+      "name": "High Plains Raceway",
+      "location": "Lakewood, Colorado",
+      "state": "CO",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 39.7589,
+      "longitude": -105.1898,
+      "description": "2.0-mile road course near Denver"
+    },
+    {
+      "name": "Lime Rock Park",
+      "location": "Lakeville, Connecticut",
+      "state": "CT",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 41.9425,
+      "longitude": -73.3833,
+      "description": "1.5-mile road course in New England"
+    },
+    {
+      "name": "US 13 Dragway",
+      "location": "Delmar, DE",
+      "state": "DE",
+      "types": [
+        "drag"
+      ],
+      "latitude": 38.4683,
+      "longitude": -75.5608,
+      "description": "NHRA drag racing facility near Delmar"
+    },
+    {
+      "name": "Bradenton Motorsports Park",
+      "location": "Bradenton, FL",
+      "state": "FL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 27.4736,
+      "longitude": -82.3264,
+      "description": "NHRA drag racing facility near Bradenton"
+    },
+    {
+      "name": "Gainesville Raceway",
+      "location": "Gainesville, FL",
+      "state": "FL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 29.7578,
+      "longitude": -82.275,
+      "description": "NHRA drag racing facility near Gainesville"
+    },
+    {
+      "name": "Homestead-Miami Speedway",
+      "location": "Homestead, Florida",
+      "state": "FL",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 25.4759,
+      "longitude": -80.3819,
+      "description": "1.5-mile banked oval with infield road course"
+    },
+    {
+      "name": "Sebring International Raceway",
+      "location": "Sebring, Florida",
+      "state": "FL",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 27.4534,
+      "longitude": -81.13,
+      "description": "Historic 3.74-mile road course"
+    },
+    {
+      "name": "Atlanta Motorsports Park",
+      "location": "Dawsonville, Georgia",
+      "state": "GA",
+      "types": [
+        "roadcourse",
+        "drift",
+        "drag"
+      ],
+      "latitude": 34.3705,
+      "longitude": -84.1643,
+      "description": "Multi-purpose with road course, drift pad, and drag strip"
+    },
+    {
+      "name": "Road Atlanta",
+      "location": "Braselton, Georgia",
+      "state": "GA",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 34.0955,
+      "longitude": -84.1035,
+      "description": "2.54-mile road course in the Southeast"
+    },
+    {
+      "name": "Hilo Dragstrip",
+      "location": "Hilo, HI",
+      "state": "HI",
+      "types": [
+        "drag"
+      ],
+      "latitude": 19.6814,
+      "longitude": -155.0303,
+      "description": "NHRA drag racing facility near Hilo"
+    },
+    {
+      "name": "Firebird Raceway",
+      "location": "Eagle, ID",
+      "state": "ID",
+      "types": [
+        "drag"
+      ],
+      "latitude": 43.7669,
+      "longitude": -116.4689,
+      "description": "NHRA drag racing facility near Eagle"
+    },
+    {
+      "name": "Byron Dragway",
+      "location": "Byron, IL",
+      "state": "IL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 42.1161,
+      "longitude": -89.2739,
+      "description": "NHRA drag racing facility near Byron"
+    },
+    {
+      "name": "Route 66 Raceway",
+      "location": "Joliet, IL",
+      "state": "IL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 41.4639,
+      "longitude": -88.075,
+      "description": "NHRA drag racing facility near Joliet"
+    },
+    {
+      "name": "Starved Rock Autocross",
+      "location": "Starved Rock, Illinois",
+      "state": "IL",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 41.3079,
+      "longitude": -88.8896,
+      "description": "Popular Midwest autocross venue"
+    },
+    {
+      "name": "World Wide Technology Raceway",
+      "location": "Madison, IL",
+      "state": "IL",
+      "types": [
+        "drag"
+      ],
+      "latitude": 38.6506,
+      "longitude": -90.1353,
+      "description": "NHRA drag racing facility near Madison"
+    },
+    {
+      "name": "Bunker Hill Dragstrip",
+      "location": "Bunker Hill, IN",
+      "state": "IN",
+      "types": [
+        "drag"
+      ],
+      "latitude": 40.6369,
+      "longitude": -86.1006,
+      "description": "NHRA drag racing facility near Bunker Hill"
+    },
+    {
+      "name": "Lucas Oil Raceway",
+      "location": "Brownsburg, IN",
+      "state": "IN",
+      "types": [
+        "drag",
+        "roadcourse"
+      ],
+      "latitude": 39.8128,
+      "longitude": -86.3408,
+      "description": "NHRA drag racing facility near Brownsburg"
+    },
+    {
+      "name": "Kansas Speedway",
+      "location": "Kansas City, Kansas",
+      "state": "KS",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 39.0336,
+      "longitude": -94.6121,
+      "description": "1.5-mile D-shaped oval with infield road course"
+    },
+    {
+      "name": "NCM Motorsports Park",
+      "location": "Bowling Green, Kentucky",
+      "state": "KY",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 37.0867,
+      "longitude": -86.2517,
+      "description": "3.2-mile 14-turn road course"
+    },
+    {
+      "name": "State Capitol Raceway",
+      "location": "Port Allen, LA",
+      "state": "LA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 30.5281,
+      "longitude": -91.3867,
+      "description": "NHRA drag racing facility near Port Allen"
+    },
+    {
+      "name": "Palmer Motorsports Park",
+      "location": "Palmer, Massachusetts",
+      "state": "MA",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 42.1758,
+      "longitude": -72.3344,
+      "description": "2.5-mile road course in central Massachusetts"
+    },
+    {
+      "name": "Cecil County Dragway",
+      "location": "Rising Sun, MD",
+      "state": "MD",
+      "types": [
+        "drag"
+      ],
+      "latitude": 39.6386,
+      "longitude": -75.99,
+      "description": "NHRA drag racing facility near Rising Sun"
+    },
+    {
+      "name": "Maryland International Raceway",
+      "location": "Mechanicsville, MD",
+      "state": "MD",
+      "types": [
+        "drag"
+      ],
+      "latitude": 38.3953,
+      "longitude": -76.8456,
+      "description": "NHRA drag racing facility near Mechanicsville"
+    },
+    {
+      "name": "Gingerman Raceway",
+      "location": "Jenison, Michigan",
+      "state": "MI",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 42.8386,
+      "longitude": -85.8442,
+      "description": "2.19-mile road course in Southern Michigan"
+    },
+    {
+      "name": "Grattan Raceway",
+      "location": "Belding, Michigan",
+      "state": "MI",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 43.2506,
+      "longitude": -85.1897,
+      "description": "2.0-mile road course in West Michigan"
+    },
+    {
+      "name": "Brainerd International Raceway",
+      "location": "Brainerd, Minnesota",
+      "state": "MN",
+      "types": [
+        "roadcourse",
+        "drag",
+        "autocross"
+      ],
+      "latitude": 46.3364,
+      "longitude": -94.2711,
+      "description": "Multi-purpose motorsports facility featuring a 2.5-mile road course, drag strip, and autocross areas."
+    },
+    {
+      "name": "GALOT Motorsports Park",
+      "location": "Benson, NC",
+      "state": "NC",
+      "types": [
+        "drag"
+      ],
+      "latitude": 35.3244,
+      "longitude": -78.5108,
+      "description": "NHRA drag racing facility near Benson"
+    },
+    {
+      "name": "Rockingham Dragway",
+      "location": "Rockingham, NC",
+      "state": "NC",
+      "types": [
+        "drag"
+      ],
+      "latitude": 34.9783,
+      "longitude": -79.6144,
+      "description": "NHRA drag racing facility near Rockingham"
+    },
+    {
+      "name": "Roxboro Motorsports Park",
+      "location": "Timberlake, NC",
+      "state": "NC",
+      "types": [
+        "drag"
+      ],
+      "latitude": 36.3542,
+      "longitude": -78.8167,
+      "description": "NHRA drag racing facility near Timberlake"
+    },
+    {
+      "name": "zMax Dragway",
+      "location": "Concord, NC",
+      "state": "NC",
+      "types": [
+        "drag"
+      ],
+      "latitude": 35.3508,
+      "longitude": -80.6833,
+      "description": "NHRA drag racing facility near Concord"
+    },
+    {
+      "name": "Magic City International Dragway",
+      "location": "Minot, ND",
+      "state": "ND",
+      "types": [
+        "drag"
+      ],
+      "latitude": 48.2342,
+      "longitude": -101.2567,
+      "description": "NHRA drag racing facility near Minot"
+    },
+    {
+      "name": "New England Dragway",
+      "location": "Epping, NH",
+      "state": "NH",
+      "types": [
+        "drag"
+      ],
+      "latitude": 43.0208,
+      "longitude": -71.0272,
+      "description": "NHRA drag racing facility near Epping"
+    },
+    {
+      "name": "Atco Dragway",
+      "location": "Atco, NJ",
+      "state": "NJ",
+      "types": [
+        "drag"
+      ],
+      "latitude": 39.775,
+      "longitude": -74.8297,
+      "description": "NHRA drag racing facility near Atco"
+    },
+    {
+      "name": "New Jersey Motorsports Park",
+      "location": "Millville, New Jersey",
+      "state": "NJ",
+      "types": [
+        "roadcourse",
+        "autocross"
+      ],
+      "latitude": 39.3789,
+      "longitude": -75.4247,
+      "description": "Multiple track layouts including street and road courses"
+    },
+    {
+      "name": "Arroyo Seco Raceway",
+      "location": "Deming, NM",
+      "state": "NM",
+      "types": [
+        "drag",
+        "roadcourse"
+      ],
+      "latitude": 32.2378,
+      "longitude": -107.4289,
+      "description": "NHRA drag racing facility near Deming"
+    },
+    {
+      "name": "Drift Masters USA - Las Vegas",
+      "location": "Las Vegas, Nevada",
+      "state": "NV",
+      "types": [
+        "drift"
+      ],
+      "latitude": 36.1627,
+      "longitude": -115.1426,
+      "description": "Dedicated drift event venue"
+    },
+    {
+      "name": "Las Vegas Motor Speedway",
+      "location": "Las Vegas, Nevada",
+      "state": "NV",
+      "types": [
+        "roadcourse",
+        "drift",
+        "drag"
+      ],
+      "latitude": 36.2734,
+      "longitude": -115.0077,
+      "description": "Oval track with infield road course"
+    },
+    {
+      "name": "Las Vegas Speedway NHRA",
+      "location": "Las Vegas, Nevada",
+      "state": "NV",
+      "types": [
+        "drag"
+      ],
+      "latitude": 36.29,
+      "longitude": -114.945,
+      "description": "NHRA drag racing at The Strip"
+    },
+    {
+      "name": "Reno Tahoe Speedway",
+      "location": "Reno, Nevada",
+      "state": "NV",
+      "types": [
+        "roadcourse",
+        "drag"
+      ],
+      "latitude": 39.5236,
+      "longitude": -119.8111,
+      "description": "Oval with infield road course and drag strip"
+    },
+    {
+      "name": "Spring Mountain Motorsports Park",
+      "location": "Pahrump, Nevada",
+      "state": "NV",
+      "types": [
+        "roadcourse",
+        "drift"
+      ],
+      "latitude": 36.2828,
+      "longitude": -115.5381,
+      "description": "Multi-use facility with road courses and drift events"
+    },
+    {
+      "name": "Lebanon Valley Dragway",
+      "location": "West Lebanon, NY",
+      "state": "NY",
+      "types": [
+        "drag"
+      ],
+      "latitude": 42.4903,
+      "longitude": -73.4864,
+      "description": "NHRA drag racing facility near West Lebanon"
+    },
+    {
+      "name": "Watkins Glen International",
+      "location": "Watkins Glen, New York",
+      "state": "NY",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 42.3383,
+      "longitude": -76.9247,
+      "description": "Historic 3.048-mile road course in Upstate New York"
+    },
+    {
+      "name": "Burke Lakefront Airport Autocross",
+      "location": "Cleveland, Ohio",
+      "state": "OH",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 41.5084,
+      "longitude": -81.6869,
+      "description": "Large parking lot autocross in Northeast Ohio"
+    },
+    {
+      "name": "Kil-Kare Raceway",
+      "location": "Xenia, OH",
+      "state": "OH",
+      "types": [
+        "drag"
+      ],
+      "latitude": 39.7064,
+      "longitude": -83.9733,
+      "description": "NHRA drag racing facility near Xenia"
+    },
+    {
+      "name": "Mid-Ohio Sports Car Course",
+      "location": "Lexington, Ohio",
+      "state": "OH",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 40.8033,
+      "longitude": -82.3578,
+      "description": "2.258-mile technical road course"
+    },
+    {
+      "name": "National Trail Raceway",
+      "location": "Hebron, OH",
+      "state": "OH",
+      "types": [
+        "drag"
+      ],
+      "latitude": 39.9581,
+      "longitude": -82.5461,
+      "description": "NHRA drag racing facility near Hebron"
+    },
+    {
+      "name": "Summit Motorsports Park",
+      "location": "Norwalk, OH",
+      "state": "OH",
+      "types": [
+        "drag"
+      ],
+      "latitude": 41.2353,
+      "longitude": -82.5428,
+      "description": "NHRA drag racing facility near Norwalk"
+    },
+    {
+      "name": "Hallett Motor Racing Circuit",
+      "location": "Stilwell, Oklahoma",
+      "state": "OK",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 35.8856,
+      "longitude": -96.2353,
+      "description": "3.8-mile high-speed road course in rural Oklahoma"
+    },
+    {
+      "name": "Putnam Park",
+      "location": "Stillwater, Oklahoma",
+      "state": "OK",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 36.1156,
+      "longitude": -97.0628,
+      "description": "2.3-mile road course in the South"
+    },
+    {
+      "name": "Tulsa Raceway Park",
+      "location": "Tulsa, OK",
+      "state": "OK",
+      "types": [
+        "drag"
+      ],
+      "latitude": 36.1978,
+      "longitude": -95.8483,
+      "description": "NHRA drag racing facility near Tulsa"
+    },
+    {
+      "name": "Portland International Raceway",
+      "location": "Portland, Oregon",
+      "state": "OR",
+      "types": [
+        "roadcourse",
+        "drag"
+      ],
+      "latitude": 45.5545,
+      "longitude": -122.6729,
+      "description": "1.915-mile road course in the Pacific Northwest"
+    },
+    {
+      "name": "Rogue River Raceway",
+      "location": "Grants Pass, Oregon",
+      "state": "OR",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 42.4543,
+      "longitude": -123.3283,
+      "description": "Autocross venue in Southern Oregon"
+    },
+    {
+      "name": "Woodburn Dragstrip",
+      "location": "Woodburn, OR",
+      "state": "OR",
+      "types": [
+        "drag"
+      ],
+      "latitude": 45.1558,
+      "longitude": -122.9067,
+      "description": "NHRA drag racing facility near Woodburn"
+    },
+    {
+      "name": "Keystone Raceway Park",
+      "location": "New Alexandria, PA",
+      "state": "PA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 40.4058,
+      "longitude": -79.4022,
+      "description": "NHRA drag racing facility near New Alexandria"
+    },
+    {
+      "name": "Maple Grove Raceway",
+      "location": "Mohnton, PA",
+      "state": "PA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 40.2125,
+      "longitude": -75.9614,
+      "description": "NHRA drag racing facility near Mohnton"
+    },
+    {
+      "name": "Shadyside Drag Strip",
+      "location": "Philadelphia, Pennsylvania",
+      "state": "PA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 39.9526,
+      "longitude": -75.1652,
+      "description": "Classic drag racing venue in Pennsylvania"
+    },
+    {
+      "name": "Bristol Dragway",
+      "location": "Bristol, Tennessee",
+      "state": "TN",
+      "types": [
+        "drag"
+      ],
+      "latitude": 36.506,
+      "longitude": -82.1448,
+      "description": "NHRA drag racing facility in East Tennessee"
+    },
+    {
+      "name": "Buffalo Valley Dragway",
+      "location": "Buffalo Valley, TN",
+      "state": "TN",
+      "types": [
+        "drag"
+      ],
+      "latitude": 36.1736,
+      "longitude": -85.7558,
+      "description": "NHRA drag racing facility near Buffalo Valley"
+    },
+    {
+      "name": "Circuit of the Americas",
+      "location": "Austin, Texas",
+      "state": "TX",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 30.2723,
+      "longitude": -97.7421,
+      "description": "3.426-mile F1-spec road course"
+    },
+    {
+      "name": "Houston Motorsports Park",
+      "location": "Crosby, Texas",
+      "state": "TX",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 29.8039,
+      "longitude": -95.1372,
+      "description": "1.96-mile road course east of Houston"
+    },
+    {
+      "name": "Motorsports Ranch",
+      "location": "Cresson, Texas",
+      "state": "TX",
+      "types": [
+        "roadcourse",
+        "autocross"
+      ],
+      "latitude": 32.4356,
+      "longitude": -97.7928,
+      "description": "Multiple track configurations for cars and motorcycles"
+    },
+    {
+      "name": "Texas Motor Speedway",
+      "location": "Fort Worth, Texas",
+      "state": "TX",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 32.8343,
+      "longitude": -97.3889,
+      "description": "1.5-mile D-shaped oval with infield road course"
+    },
+    {
+      "name": "Texas Motorplex",
+      "location": "Ennis, TX",
+      "state": "TX",
+      "types": [
+        "drag"
+      ],
+      "latitude": 32.3286,
+      "longitude": -96.7172,
+      "description": "NHRA drag racing facility near Ennis"
+    },
+    {
+      "name": "Miller Motorsports Park",
+      "location": "Tooele, Utah",
+      "state": "UT",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 40.7167,
+      "longitude": -112.1667,
+      "description": "FIA-spec road course in the Utah desert"
+    },
+    {
+      "name": "Dominion Raceway",
+      "location": "Thornburg, VA",
+      "state": "VA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 42.1161,
+      "longitude": -89.2739,
+      "description": "NHRA drag racing facility near Thornburg"
+    },
+    {
+      "name": "VIR - Virginia International Raceway",
+      "location": "Alton, Virginia",
+      "state": "VA",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 36.9117,
+      "longitude": -78.8608,
+      "description": "4.25-mile full road course with multiple configurations"
+    },
+    {
+      "name": "Virginia Motorsports Park",
+      "location": "Petersburg, VA",
+      "state": "VA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 37.1664,
+      "longitude": -77.5239,
+      "description": "NHRA drag racing facility near Petersburg"
+    },
+    {
+      "name": "Bremerton Raceway",
+      "location": "Bremerton, WA",
+      "state": "WA",
+      "types": [
+        "drag"
+      ],
+      "latitude": 47.4889,
+      "longitude": -122.7547,
+      "description": "NHRA drag racing facility near Bremerton"
+    },
+    {
+      "name": "Pacific Raceways",
+      "location": "Kent, Washington",
+      "state": "WA",
+      "types": [
+        "roadcourse",
+        "drag"
+      ],
+      "latitude": 47.4209,
+      "longitude": -122.2332,
+      "description": "2.24-mile road course with drag strip"
+    },
+    {
+      "name": "Great Lakes Dragaway",
+      "location": "Union Grove, WI",
+      "state": "WI",
+      "types": [
+        "drag"
+      ],
+      "latitude": 42.6606,
+      "longitude": -88.0331,
+      "description": "NHRA drag racing facility near Union Grove"
+    },
+    {
+      "name": "Midwest Air Filtration Autocross",
+      "location": "Madison, Wisconsin",
+      "state": "WI",
+      "types": [
+        "autocross"
+      ],
+      "latitude": 43.1305,
+      "longitude": -89.4081,
+      "description": "SCCA sanctioned autocross events"
+    },
+    {
+      "name": "Road America",
+      "location": "Elkhart Lake, Wisconsin",
+      "state": "WI",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 43.9542,
+      "longitude": -87.9844,
+      "description": "4.048-mile high-speed road course in Wisconsin"
+    },
+    {
+      "name": "Wisconsin International Raceway",
+      "location": "Kaukauna, WI",
+      "state": "WI",
+      "types": [
+        "drag"
+      ],
+      "latitude": 44.2453,
+      "longitude": -88.2603,
+      "description": "NHRA drag racing facility near Kaukauna"
+    },
+    {
+      "name": "Summit Point Motorsports Park",
+      "location": "Summit Point, West Virginia",
+      "state": "WV",
+      "types": [
+        "roadcourse"
+      ],
+      "latitude": 39.3517,
+      "longitude": -78.1783,
+      "description": "Multiple track configurations for all skill levels"
+    }
+  ]
+}

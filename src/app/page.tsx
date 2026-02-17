@@ -1,8 +1,9 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useCallback } from 'react';
 import Link from 'next/link';
 import { cn, getEventLabel } from '@/lib/utils';
+import { api } from '@/lib/api';
 import { Badge } from '@/components/ui/badge';
 import { StarRating } from '@/components/ui/star-rating';
 import { LoadingSpinner, EmptyState } from '@/components/ui/loading';
@@ -21,9 +22,10 @@ interface Track {
 
 const EVENT_FILTERS = [
     { value: '', label: 'All' },
+    { value: 'AUTOCROSS', label: 'Autocross' },
+    { value: 'ROADCOURSE', label: 'Road Course' },
     { value: 'DRIFT', label: 'Drift' },
     { value: 'DRAG', label: 'Drag' },
-    { value: 'GRIP', label: 'Grip' },
 ];
 
 export default function HomePage() {
@@ -32,26 +34,33 @@ export default function HomePage() {
     const [search, setSearch] = useState('');
     const [eventFilter, setEventFilter] = useState('');
 
-    useEffect(() => {
-        fetchTracks();
-    }, [search, eventFilter]);
-
-    const fetchTracks = async () => {
+    const fetchTracks = useCallback(async () => {
         setLoading(true);
         const params = new URLSearchParams();
         if (search) params.set('search', search);
         if (eventFilter) params.set('eventType', eventFilter);
 
         try {
-            const res = await fetch(`/api/tracks?${params}`);
+            const res = await api(`/api/tracks?${params}`);
+            if (!res.ok) {
+                const errorText = await res.text();
+                console.error('API Error:', res.status, errorText);
+                setTracks([]);
+                return;
+            }
             const data = await res.json();
-            setTracks(data);
+            setTracks(Array.isArray(data) ? data : []);
         } catch (error) {
             console.error('Failed to fetch tracks:', error);
+            setTracks([]);
         } finally {
             setLoading(false);
         }
-    };
+    }, [search, eventFilter]);
+
+    useEffect(() => {
+        fetchTracks();
+    }, [fetchTracks]);
 
     return (
         <div className="page-container">

@@ -1,0 +1,3766 @@
+{
+  "zones": [
+    {
+      "trackName": "Alaska Raceway Park",
+      "trackLocation": "Palmer, AK",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Alabama International Dragway",
+      "trackLocation": "Steele, AL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Atmore Dragway",
+      "trackLocation": "Atmore, AL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Barber Motorsports Park",
+      "trackLocation": "Birmingham, Alabama",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        },
+        {
+          "name": "Turn 17",
+          "description": "Turn 17",
+          "posX": 37,
+          "posY": 112
+        }
+      ]
+    },
+    {
+      "trackName": "US 90 Dragway",
+      "trackLocation": "Irvington, AL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "George Ray's Dragstrip",
+      "trackLocation": "Paragould, AR",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Arizona Motorsports Park",
+      "trackLocation": "Chandler, Arizona",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Wild Horse Pass Motorsports Park",
+      "trackLocation": "Chandler, AZ",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Auto Club Speedway",
+      "trackLocation": "Fontana, California",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Buttonwillow Raceway Park",
+      "trackLocation": "Buttonwillow, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        },
+        {
+          "name": "Turn 17",
+          "description": "Turn 17",
+          "posX": 37,
+          "posY": 112
+        },
+        {
+          "name": "Turn 18",
+          "description": "Turn 18",
+          "posX": 62,
+          "posY": 112
+        },
+        {
+          "name": "Turn 19",
+          "description": "Turn 19",
+          "posX": 87,
+          "posY": 112
+        },
+        {
+          "name": "Turn 20",
+          "description": "Turn 20",
+          "posX": 12,
+          "posY": 112
+        },
+        {
+          "name": "Turn 21",
+          "description": "Turn 21",
+          "posX": 37,
+          "posY": 137
+        },
+        {
+          "name": "Turn 22",
+          "description": "Turn 22",
+          "posX": 62,
+          "posY": 137
+        },
+        {
+          "name": "Turn 23",
+          "description": "Turn 23",
+          "posX": 87,
+          "posY": 137
+        }
+      ]
+    },
+    {
+      "trackName": "Chuckwalla Valley Raceway",
+      "trackLocation": "Winterhaven, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        },
+        {
+          "name": "Turn 17",
+          "description": "Turn 17",
+          "posX": 37,
+          "posY": 112
+        }
+      ]
+    },
+    {
+      "trackName": "Famoso Raceway",
+      "trackLocation": "McFarland, California",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Fontana Speedway Autocross",
+      "trackLocation": "Fontana, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Formula Drift - Irwindale",
+      "trackLocation": "Irwindale, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        }
+      ]
+    },
+    {
+      "trackName": "Fremont Raceway",
+      "trackLocation": "Fremont, California",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "In-N-Out Burger Pomona Dragstrip",
+      "trackLocation": "Pomona, CA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Laguna Seca",
+      "trackLocation": "Monterey, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Modesto Autocross",
+      "trackLocation": "Modesto, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Sonoma Raceway",
+      "trackLocation": "Sonoma, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Streets of Willow Springs",
+      "trackLocation": "Rosamond, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "The Thermal Club",
+      "trackLocation": "Thermal, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Thunderhill Raceway Park",
+      "trackLocation": "Willows, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Willow Springs Raceway",
+      "trackLocation": "Rosamond, California",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Equipe GPS Autocross",
+      "trackLocation": "Denver, Colorado",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "High Plains Raceway",
+      "trackLocation": "Lakewood, Colorado",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Lime Rock Park",
+      "trackLocation": "Lakeville, Connecticut",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "US 13 Dragway",
+      "trackLocation": "Delmar, DE",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Bradenton Motorsports Park",
+      "trackLocation": "Bradenton, FL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Gainesville Raceway",
+      "trackLocation": "Gainesville, FL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Homestead-Miami Speedway",
+      "trackLocation": "Homestead, Florida",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Sebring International Raceway",
+      "trackLocation": "Sebring, Florida",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Atlanta Motorsports Park",
+      "trackLocation": "Dawsonville, Georgia",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Road Atlanta",
+      "trackLocation": "Braselton, Georgia",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "Hilo Dragstrip",
+      "trackLocation": "Hilo, HI",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Firebird Raceway",
+      "trackLocation": "Eagle, ID",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Byron Dragway",
+      "trackLocation": "Byron, IL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Route 66 Raceway",
+      "trackLocation": "Joliet, IL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Starved Rock Autocross",
+      "trackLocation": "Starved Rock, Illinois",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "World Wide Technology Raceway",
+      "trackLocation": "Madison, IL",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Bunker Hill Dragstrip",
+      "trackLocation": "Bunker Hill, IN",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Lucas Oil Raceway",
+      "trackLocation": "Brownsburg, IN",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Kansas Speedway",
+      "trackLocation": "Kansas City, Kansas",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "NCM Motorsports Park",
+      "trackLocation": "Bowling Green, Kentucky",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "State Capitol Raceway",
+      "trackLocation": "Port Allen, LA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Palmer Motorsports Park",
+      "trackLocation": "Palmer, Massachusetts",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Cecil County Dragway",
+      "trackLocation": "Rising Sun, MD",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Maryland International Raceway",
+      "trackLocation": "Mechanicsville, MD",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Gingerman Raceway",
+      "trackLocation": "Jenison, Michigan",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Grattan Raceway",
+      "trackLocation": "Belding, Michigan",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Brainerd International Raceway",
+      "trackLocation": "Brainerd, Minnesota",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "GALOT Motorsports Park",
+      "trackLocation": "Benson, NC",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Rockingham Dragway",
+      "trackLocation": "Rockingham, NC",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Roxboro Motorsports Park",
+      "trackLocation": "Timberlake, NC",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "zMax Dragway",
+      "trackLocation": "Concord, NC",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Magic City International Dragway",
+      "trackLocation": "Minot, ND",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "New England Dragway",
+      "trackLocation": "Epping, NH",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Atco Dragway",
+      "trackLocation": "Atco, NJ",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "New Jersey Motorsports Park",
+      "trackLocation": "Millville, New Jersey",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Arroyo Seco Raceway",
+      "trackLocation": "Deming, NM",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Drift Masters USA - Las Vegas",
+      "trackLocation": "Las Vegas, Nevada",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        }
+      ]
+    },
+    {
+      "trackName": "Las Vegas Motor Speedway",
+      "trackLocation": "Las Vegas, Nevada",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Las Vegas Speedway NHRA",
+      "trackLocation": "Las Vegas, Nevada",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Reno Tahoe Speedway",
+      "trackLocation": "Reno, Nevada",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Spring Mountain Motorsports Park",
+      "trackLocation": "Pahrump, Nevada",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        }
+      ]
+    },
+    {
+      "trackName": "Lebanon Valley Dragway",
+      "trackLocation": "West Lebanon, NY",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Watkins Glen International",
+      "trackLocation": "Watkins Glen, New York",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "Burke Lakefront Airport Autocross",
+      "trackLocation": "Cleveland, Ohio",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Kil-Kare Raceway",
+      "trackLocation": "Xenia, OH",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Mid-Ohio Sports Car Course",
+      "trackLocation": "Lexington, Ohio",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "National Trail Raceway",
+      "trackLocation": "Hebron, OH",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Summit Motorsports Park",
+      "trackLocation": "Norwalk, OH",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Hallett Motor Racing Circuit",
+      "trackLocation": "Stilwell, Oklahoma",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "Putnam Park",
+      "trackLocation": "Stillwater, Oklahoma",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "Tulsa Raceway Park",
+      "trackLocation": "Tulsa, OK",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Portland International Raceway",
+      "trackLocation": "Portland, Oregon",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Rogue River Raceway",
+      "trackLocation": "Grants Pass, Oregon",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Woodburn Dragstrip",
+      "trackLocation": "Woodburn, OR",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Keystone Raceway Park",
+      "trackLocation": "New Alexandria, PA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Maple Grove Raceway",
+      "trackLocation": "Mohnton, PA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Shadyside Drag Strip",
+      "trackLocation": "Philadelphia, Pennsylvania",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Bristol Dragway",
+      "trackLocation": "Bristol, Tennessee",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Buffalo Valley Dragway",
+      "trackLocation": "Buffalo Valley, TN",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Circuit of the Americas",
+      "trackLocation": "Austin, Texas",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        },
+        {
+          "name": "Turn 17",
+          "description": "Turn 17",
+          "posX": 37,
+          "posY": 112
+        },
+        {
+          "name": "Turn 18",
+          "description": "Turn 18",
+          "posX": 62,
+          "posY": 112
+        },
+        {
+          "name": "Turn 19",
+          "description": "Turn 19",
+          "posX": 87,
+          "posY": 112
+        },
+        {
+          "name": "Turn 20",
+          "description": "Turn 20",
+          "posX": 12,
+          "posY": 112
+        }
+      ]
+    },
+    {
+      "trackName": "Houston Motorsports Park",
+      "trackLocation": "Crosby, Texas",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        }
+      ]
+    },
+    {
+      "trackName": "Motorsports Ranch",
+      "trackLocation": "Cresson, Texas",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Texas Motor Speedway",
+      "trackLocation": "Fort Worth, Texas",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "Texas Motorplex",
+      "trackLocation": "Ennis, TX",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Miller Motorsports Park",
+      "trackLocation": "Tooele, Utah",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        },
+        {
+          "name": "Turn 17",
+          "description": "Turn 17",
+          "posX": 37,
+          "posY": 112
+        },
+        {
+          "name": "Turn 18",
+          "description": "Turn 18",
+          "posX": 62,
+          "posY": 112
+        },
+        {
+          "name": "Turn 19",
+          "description": "Turn 19",
+          "posX": 87,
+          "posY": 112
+        },
+        {
+          "name": "Turn 20",
+          "description": "Turn 20",
+          "posX": 12,
+          "posY": 112
+        },
+        {
+          "name": "Turn 21",
+          "description": "Turn 21",
+          "posX": 37,
+          "posY": 137
+        },
+        {
+          "name": "Turn 22",
+          "description": "Turn 22",
+          "posX": 62,
+          "posY": 137
+        },
+        {
+          "name": "Turn 23",
+          "description": "Turn 23",
+          "posX": 87,
+          "posY": 137
+        }
+      ]
+    },
+    {
+      "trackName": "Dominion Raceway",
+      "trackLocation": "Thornburg, VA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "VIR - Virginia International Raceway",
+      "trackLocation": "Alton, Virginia",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        },
+        {
+          "name": "Turn 15",
+          "description": "Turn 15",
+          "posX": 87,
+          "posY": 87
+        },
+        {
+          "name": "Turn 16",
+          "description": "Turn 16",
+          "posX": 12,
+          "posY": 87
+        },
+        {
+          "name": "Turn 17",
+          "description": "Turn 17",
+          "posX": 37,
+          "posY": 112
+        }
+      ]
+    },
+    {
+      "trackName": "Virginia Motorsports Park",
+      "trackLocation": "Petersburg, VA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Bremerton Raceway",
+      "trackLocation": "Bremerton, WA",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Pacific Raceways",
+      "trackLocation": "Kent, Washington",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Great Lakes Dragaway",
+      "trackLocation": "Union Grove, WI",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Midwest Air Filtration Autocross",
+      "trackLocation": "Madison, Wisconsin",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        }
+      ]
+    },
+    {
+      "trackName": "Road America",
+      "trackLocation": "Elkhart Lake, Wisconsin",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        },
+        {
+          "name": "Turn 11",
+          "description": "Turn 11",
+          "posX": 87,
+          "posY": 62
+        },
+        {
+          "name": "Turn 12",
+          "description": "Turn 12",
+          "posX": 12,
+          "posY": 62
+        },
+        {
+          "name": "Turn 13",
+          "description": "Turn 13",
+          "posX": 37,
+          "posY": 87
+        },
+        {
+          "name": "Turn 14",
+          "description": "Turn 14",
+          "posX": 62,
+          "posY": 87
+        }
+      ]
+    },
+    {
+      "trackName": "Wisconsin International Raceway",
+      "trackLocation": "Kaukauna, WI",
+      "zones": [
+        {
+          "name": "The Strip",
+          "description": "Drag racing straight",
+          "posX": 50,
+          "posY": 50
+        }
+      ]
+    },
+    {
+      "trackName": "Summit Point Motorsports Park",
+      "trackLocation": "Summit Point, West Virginia",
+      "zones": [
+        {
+          "name": "Turn 1",
+          "description": "Turn 1",
+          "posX": 37,
+          "posY": 12
+        },
+        {
+          "name": "Turn 2",
+          "description": "Turn 2",
+          "posX": 62,
+          "posY": 12
+        },
+        {
+          "name": "Turn 3",
+          "description": "Turn 3",
+          "posX": 87,
+          "posY": 12
+        },
+        {
+          "name": "Turn 4",
+          "description": "Turn 4",
+          "posX": 12,
+          "posY": 12
+        },
+        {
+          "name": "Turn 5",
+          "description": "Turn 5",
+          "posX": 37,
+          "posY": 37
+        },
+        {
+          "name": "Turn 6",
+          "description": "Turn 6",
+          "posX": 62,
+          "posY": 37
+        },
+        {
+          "name": "Turn 7",
+          "description": "Turn 7",
+          "posX": 87,
+          "posY": 37
+        },
+        {
+          "name": "Turn 8",
+          "description": "Turn 8",
+          "posX": 12,
+          "posY": 37
+        },
+        {
+          "name": "Turn 9",
+          "description": "Turn 9",
+          "posX": 37,
+          "posY": 62
+        },
+        {
+          "name": "Turn 10",
+          "description": "Turn 10",
+          "posX": 62,
+          "posY": 62
+        }
+      ]
+    }
+  ]
+}

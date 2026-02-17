@@ -1,7 +1,9 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useSession, signOut } from 'next-auth/react';
+import { useAuth } from '@/components/providers/auth-provider';
+import { api } from '@/lib/api';
+import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { cn, getExperienceLabel } from '@/lib/utils';
 import { LoadingSpinner } from '@/components/ui/loading';
@@ -30,7 +32,8 @@ const EXPERIENCE_OPTIONS = [
 ];
 
 export default function ProfilePage() {
-    const { data: session } = useSession();
+    const { user, logout } = useAuth();
+    const router = useRouter();
     const [profile, setProfile] = useState<Profile | null>(null);
     const [loading, setLoading] = useState(true);
     const [editing, setEditing] = useState(false);
@@ -39,12 +42,12 @@ export default function ProfilePage() {
     const [saving, setSaving] = useState(false);
 
     useEffect(() => {
-        if (session) fetchProfile();
-    }, [session]);
+        if (user) fetchProfile();
+    }, [user]);
 
     const fetchProfile = async () => {
         try {
-            const res = await fetch('/api/profile');
+            const res = await api('/api/profile');
             if (res.ok) {
                 const data = await res.json();
                 setProfile(data);
@@ -61,7 +64,7 @@ export default function ProfilePage() {
     const handleSave = async () => {
         setSaving(true);
         try {
-            const res = await fetch('/api/profile', {
+            const res = await api('/api/profile', {
                 method: 'PUT',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify({ name, experience }),
@@ -78,7 +81,7 @@ export default function ProfilePage() {
         }
     };
 
-    if (!session) {
+    if (!user) {
         return (
             <div className="page-container flex flex-col items-center justify-center min-h-[60vh]">
                 <div className="text-center">
@@ -223,7 +226,10 @@ export default function ProfilePage() {
 
             {/* Sign Out */}
             <button
-                onClick={() => signOut({ callbackUrl: '/login' })}
+                onClick={() => {
+                    logout();
+                    router.push('/login');
+                }}
                 className="btn-outline w-full text-sm text-red-400 border-red-500/30 hover:bg-red-500/10"
             >
                 Sign Out
