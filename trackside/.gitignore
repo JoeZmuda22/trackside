@@ -1,9 +1,11 @@
 # Dependencies
 node_modules
+/.pnp
+.pnp.js
 
 # Next.js
-trackside/.next
-trackside/out
+/.next
+/out
 
 # Production
 /build
@@ -31,10 +33,3 @@ npm-debug.log*
 .cache
 .turbo
 *.pem
-
-# Go backend
-backend/bin/
-backend/trackside.db
-backend/uploads/
-backend/coverage.out
-backend/coverage.html

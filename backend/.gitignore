@@ -1,0 +1,9 @@
+bin/
+*.db
+*.db-wal
+*.db-shm
+uploads/
+.env
+coverage.out
+coverage.html
+server
